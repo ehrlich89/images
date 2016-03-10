@@ -30,7 +30,7 @@ The BlueRange SDK is divided into two layers, a core and a service layer. The co
 - Messages logged over a long period of time can be transformed to status reports and periodically sent to a mesh management system like the Relution SmartBeacon management system.
 
 #### Triggering
-- A stream of beacon messages can trigger an action which will be executed based on different time and location based parameters. Actions can e.g. be executed after a predefined delay or locked for a specific duration. Moreover, actions can be defined to trigger only inside a certain range to the beacon or can have a validation period.
+- A stream of beacon messages can trigger an action which will be executed based on time and location based parameters. Actions can e.g. be executed after a predefined delay or locked for a specific duration. Moreover, actions can be defined to trigger only inside a certain range to the beacon or can have a validation period.
 - To make the execution of distance dependent actions more stable, the messages' received signal strength is averaged over time by using a linearly weighted moving average filter.
 - Notice: the devices we tested (Galaxy S4, Nexus 5, Nexus 9) were able to receive about 1-2 messages/sec. However some devices and Android versions seem to scan very infrequently Bluetooth Low Energy advertising messages, even if the ```BluetoothLeScanner```'s scan mode is set to ```SCAN_MODE_LOW_LATENCY```. We hope that this problem will be solved in future Android versions.
 
