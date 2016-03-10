@@ -55,7 +55,7 @@ As mentioned above, the service layer builds on top of the core layer and provid
 
 ## Reference application
 
-The NearYou app shows you a reference application, which shows you the messages that are currently being received by the app or check whether you have correctly configured the campaign actions. 
+NearYou is a reference application, which shows you the messages that are currently being received by the app or check whether you have correctly configured the campaign actions. 
 
 Before you start the app, you must configure the ```RelutionIoTService``` in the ```com.mway.bluerange.android.examples.nearyou.Application``` class, so that the correct Relution organization will be used. Please, have a look at the "Sample code" section to see, what the specific fields mean.
 
