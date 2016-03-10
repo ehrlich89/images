@@ -52,6 +52,10 @@ As mentioned above, the service layer builds on top of the core layer and provid
 - The ```nearyou``` package contains a reference application displaying you the currently received beacon messages and the executed actions. You can test the app, if you have a Bluetooth Low Energy capable device. In order to start the app, you only need to build, deploy and start the application. If you are using Android Studio, you can simply use the keyboard shortcut ```Shift+F10```.
 - The best way to start writing your own app would be to replace all classes of the NearYou app and transform the code to your own needs.
 
+## Reference application
+
+![alt tag](https://raw.githubusercontent.com/ehrlich89/images/master/01_NearYou_app.png)
+
 ## Sample code
 The following section shows you, how the most important SDK features can be integrated inside your app. As described above, you can use the ```RelutionIoTService``` class, if you do not need the flexibility of the underlying message processing architecture and just want to get informed about executed actions, incoming messages or just want to turn on/off features.
 
