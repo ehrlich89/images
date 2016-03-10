@@ -158,7 +158,7 @@ RelutionIoTService.addRelutionTagObserver(new RelutionIoTService.RelutionTagObse
 ```
 
 ### Scanning
-If you want to scan for specific beacon messages, you can create an instance of ```BeaconMessageScanner``` and
+If you want to scan specific beacon messages, you can create an instance of ```BeaconMessageScanner``` and
 configure it, so that the scanner scans for these messages. Next, register a ```BeaconMessageStreamNodeReceiver``` whose ```onReceivedMessage``` will be called, whenever a matching message has been received. You can also add message types to the scanner's configuration after you have started the scanner. To do this, just call the appropriate methods of the ```BeaconMessageScannerConfig``` object.
 
 ```java
