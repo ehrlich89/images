@@ -54,10 +54,7 @@ As mentioned above, the service layer builds on top of the core layer and provid
 
 ## Reference application
 
-![alt tag](https://raw.githubusercontent.com/ehrlich89/images/master/01_NearYou_app.png)
 ![alt tag](https://raw.githubusercontent.com/ehrlich89/images/master/02_iBeacons.png)
-![alt tag](https://raw.githubusercontent.com/ehrlich89/images/master/03_Relution_Tags.png)
-![alt tag](https://raw.githubusercontent.com/ehrlich89/images/master/04_Join_Me.png)
 ![alt tag](https://raw.githubusercontent.com/ehrlich89/images/master/05_Action.png)
 
 ## Sample code
