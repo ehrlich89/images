@@ -54,7 +54,7 @@ As mentioned above, the service layer builds on top of the core layer and provid
 
 ## Reference application
 
-![alt tag](https://raw.githubusercontent.com/ehrlich89/images/master/01_NearYou_app.png) { width: 200px; }
+![alt tag](https://raw.githubusercontent.com/ehrlich89/images/master/01_NearYou_app.png) { width: 20px; }
 
 ## Sample code
 The following section shows you, how the most important SDK features can be integrated inside your app. As described above, you can use the ```RelutionIoTService``` class, if you do not need the flexibility of the underlying message processing architecture and just want to get informed about executed actions, incoming messages or just want to turn on/off features.
