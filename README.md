@@ -19,7 +19,7 @@ The BlueRange SDK is divided into two layers, a core and a service layer. The co
 - Sending advertising messages of arbitrary data.
 
 #### Scanning
-- Scanning iBeacon, Relution Tag and some BlueRange specific messages. 
+- Scanning iBeacon, Relution Tag and BlueRange specific messages. 
 - The scan procedure will be continued when the app is running in background, even when the user attempts to terminate the app.
 - The energy consumption can be adjusted dynamically by changing scan properties like the scan interval.
 
