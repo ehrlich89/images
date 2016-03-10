@@ -55,9 +55,11 @@ As mentioned above, the service layer builds on top of the core layer and provid
 ## Reference application
 
 You can start the NearYou app to see the messages that are currently being received by the app or to check whether you have correctly configured the actions. In order to calibrate an iBeacon, just place your device 1 meter away from the beacon, wait about 5 seconds, and click on the "Calibrate" button. To see, if the calibration worked, the "Calibrated RSSI" value should have changed to a new value.
+
 ![alt tag](https://raw.githubusercontent.com/ehrlich89/images/master/02_iBeacons2.png)
 
-fd
+Besides the currently received messages, the "Visited", "Content" and "Notification" tabs show you the current state of the actions, as you can see in the screenshot below. The "last update" field indicates, when the last message was received that was able to initiate the action. "Trigger threshold" shows you the distance threshold that you specified when you defined the action inside a campaign. The progress bar beside "distance to trigger" displays you the distance to the trigger threshold. A negative distance means that you are inside the radius defined by the trigger threshold. Finally, the "Trigger locked" and "Trigger delayed" fields indicate the lock and delay duration for this action.
+
 ![alt tag](https://raw.githubusercontent.com/ehrlich89/images/master/05_Action2.png)
 
 ## Sample code
