@@ -58,7 +58,7 @@ You can start the NearYou app to see the messages that are currently being recei
 
 ![alt tag](https://raw.githubusercontent.com/ehrlich89/images/master/02_iBeacons2.png)
 
-Next to the tabs "iBeacon", "Relution Tags" and "JoinMe", the "Visited", "Content" and "Notification" tabs allow you to monitor actions, as you can see in the screenshot below. The "last update" field displays the last time, when a message was received that was able to initiate the action. "Trigger threshold" shows you the distance threshold that you specified when you defined the action inside a campaign. The bar besides "distance to trigger" displays you the distance to the trigger threshold. A negative distance means that you are inside the radius defined by the trigger threshold. Finally, the "Trigger locked" and "Trigger delayed" fields indicate the lock and delay duration for this action.
+Next to the tabs "iBeacon", "Relution Tags" and "JoinMe", the "Visited", "Content" and "Notification" tabs allow you to monitor actions, as you can see in the screenshot below. The "last update" field displays the last time, when a message was received that was able to initiate the action. "Trigger threshold" shows you the distance threshold that you specified when you defined the action inside a campaign. The bar besides "distance to trigger" shows the distance to the trigger threshold. A negative distance means that you are inside the radius defined by the trigger threshold. Finally, the "Trigger locked" and "Trigger delayed" fields indicate the lock and delay duration for this action.
 
 ![alt tag](https://raw.githubusercontent.com/ehrlich89/images/master/05_Action2.png)
 
