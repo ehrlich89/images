@@ -206,3 +206,6 @@ public class AdvertisingService extends BlueRangeService {
     }
 }
 ```
+
+## Questions
+If you have any questions, please send a mail to m.ehrlich@mwaysolutions.com
