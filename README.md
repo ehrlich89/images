@@ -1,7 +1,7 @@
 # BlueRange SDK for Android
 
 ## What does this SDK do?
-"BlueRange SDK for Android" is a library for the Android platform providing an API to develop applications that interact with Bluetooth Low Energy beacons in general and BlueRange SmartBeacons in specific. The API is intended to provide an easy to use interface to develop time and location based applications that make use of BlueRange mesh networks. For more information about the BlueRange technology, have a closer look at this project on GitHub. 
+"BlueRange SDK for Android" is a library for the Android platform providing an API to develop mobile applications that interact with Bluetooth Low Energy beacons in general and BlueRange SmartBeacons in specific. The API is intended to provide an easy to use interface to develop time and location based applications that make use of BlueRange mesh networks. For more information about the BlueRange technology, have a closer look at this project on GitHub. 
 
 The SDK also provides a seamless integration into an infrastructure based on the Enterprise Mobility Management platform Relution. Relution SmartBeacon Management is part of Relution and allows you to control and monitor a mesh of SmartBeacons. Using Relution you can assign each beacon a message that will be send out in regular intervals. At the moment Relution supports iBeacons and Relution Tag messages. 
 
