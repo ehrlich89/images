@@ -57,7 +57,7 @@ As mentioned above, the service layer builds on top of the core layer and provid
 
 NearYou is a reference application, which shows you the messages that are currently being received by the app and allows you to check whether you have correctly configured the campaign actions. 
 
-Before you start the app, you must configure the ```RelutionIoTService``` in the ```com.mway.bluerange.android.examples.nearyou.Application``` class, so that the correct Relution organization will be used. Please, have a look at the "Sample code" section, to see, what the specific fields mean.
+Before you start the app, you must configure the ```RelutionIoTService``` in the ```com.mway.bluerange.android.examples.nearyou.Application``` class, so that the correct Relution organization will be used. Please, have a look at the "Sample code" section, to see, what the specific fields of the ```RelutionIoTService```'s configuration mean.
 
 In order to calibrate an iBeacon, just place your device 1 meter away from the beacon, wait about 5 seconds, and click on the "Calibrate" button. To verify, whether the iBeacon has correctly been calibrated, the "Calibrated RSSI" value should have changed to a new value. For each iBeacon an estimated distance is calculated. The SDK currently supports two distance estimation algorithms. The analytical distance estimator computes the distance out of an averaged RSSI value based on an analytical mathematical model. The empirical distance estimator on the other side is based on a distance estimation scheme implemented in the Android beacon library, which calculates distances based on measurements that where collected with different Android devices.
 
