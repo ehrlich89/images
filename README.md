@@ -12,7 +12,7 @@ iBeacons, on the other side, are currently used to realize a concept, which we c
 ## Features
 Currently the BlueRange SDK supports Android devices that run at least on API level 4.3. However, to enable advertising, Android devices must additionally support the Bluetooth LE peripheral mode and run at least on API level 21.
 
-The BlueRange SDK is divided into two layers, a core and a service layer. The core layer consists of a set of message processing components that can be combined to a flexible message processing architecture. The service layer builds on top of the core layer and is responsible for the integration of the message processing components and the Relution platform. The current version supports the following features:
+The BlueRange SDK is divided into two layers, a core and a service layer. The core layer consists of a set of message processing components that can be combined to a flexible message processing architecture. The service layer builds on top of the core layer and integrates the message processing components and the Relution platform. The current version supports the following features:
 
 ### Core
 #### Advertising
