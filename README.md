@@ -10,7 +10,7 @@ The idea behind Relution Tags is to assign each beacon a number of tags that the
 iBeacons, on the other side, are currently used to realize a concept, which we call "campaigns". A campaign allows you to define a set of actions that will be triggered within a mobile app, whenever the device is next to a beacon that takes part in the campaign. In contrast to the concept of Relution tags, the mapping of iBeacon and app behavior is not done by the app itself but by Relution. The drawback of this concept is that your app constantly needs internet access. The advantage, however, is, that the content and behavior that is associated with an action, will be instantly updated, whenever it was changed in Relution.
 
 ## Features
-Currently the BlueRange SDK supports Android 4.3 and iOS 8.0 devices. However, to enable advertising, Android devices must additionally support the Bluetooth LE peripheral mode and run at least on API level 21.
+Currently the BlueRange SDK supports Android devices that run at least on API level 4.3. However, to enable advertising, Android devices must additionally support the Bluetooth LE peripheral mode and run at least on API level 21.
 
 The BlueRange SDK is divided into two layers, a core and a service layer. The core layer consists of a set of message processing components that can be combined to a flexible message processing architecture. The service layer builds on top of the core layer and is responsible for the integration of the message processing components and the Relution platform. The current version supports the following features:
 
