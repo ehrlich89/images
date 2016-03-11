@@ -123,7 +123,7 @@ RelutionIoTService.addBeaconMessageObserver(new RelutionIoTService.BeaconMessage
 ```
 
 ### Beacon actions
-If beacons take part in a campaign, your app should react to actions defined in the campaign. You can do this by adding observer instances to the ```RelutionIoTService``` instance for each specific type of action:
+If beacons take part in a campaign, your app should react to the campaign's actions. Your app will get instantly notified about each action execution, when you have registered an observer for each specific type of action. Take in mind, however, that it will take about 10 seconds to recognize any changes in Relution (e.g. adding iBeacon or Relution Tag messages).
 ```java
 RelutionIoTService.addBeaconNotificationActionObserver(new RelutionIoTService.BeaconNotificationActionObserver() {
 	@Override
