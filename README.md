@@ -32,7 +32,7 @@ The BlueRange SDK is divided into two layers, a core and a service layer. The co
 #### Triggering
 - A stream of beacon messages can trigger an action which will be executed based on time and location based parameters. Actions can e.g. be executed after a predefined delay or locked for a specific duration. Moreover, actions can be defined to trigger only inside a certain range to the beacon or can have a validation period.
 - To make the execution of distance dependent actions more stable, the messages' received signal strength is averaged over time by using a linearly weighted moving average filter.
-- Notice: the devices, we used for testing (Galaxy S4, Nexus 5, Nexus 9) were able to receive about 1-2 messages/sec. However, some devices and Android versions seem to have a very low scan rate, although the ```BluetoothLeScanner```'s scan mode is set to ```SCAN_MODE_LOW_LATENCY```. We hope that this problem will be solved in future Android versions.
+- Notice: most devices (e.g. Galaxy S4, Nexus 5, Nexus 9) are able to receive about 1-2 messages/sec. However, some devices and Android versions seem to have a very low scan rate, although the ```BluetoothLeScanner```'s scan mode is set to ```SCAN_MODE_LOW_LATENCY```. We hope that this problem will be solved in future Android versions.
 
 ### Service
 As mentioned above, the service layer builds on top of the core layer and provides some high level features to integrate the message processing components with the Relution SmartBeacon Management platform. Concretely, it enables you
