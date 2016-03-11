@@ -38,7 +38,7 @@ The BlueRange SDK is divided into two layers, a core and a service layer. The co
 As mentioned above, the service layer builds on top of the core layer and provides some high level features to integrate the message processing components with the Relution SmartBeacon Management platform. Concretely, it enables you
 - to calibrate iBeacon messages to improve the precision of distance dependent actions.
 - to map Relution Tags to their names and descriptions defined in the Relution platform.
-- to periodically send specific advertising messages, that will be used to display a heatmap on the Relution SmartBeacon management platform.
+- to periodically send specific advertising messages, that will be used to generate and display a heatmap on the Relution SmartBeacon management platform.
 
 ## Documentation
 - All currently supported features are bundled in the ```RelutionIoTService``` class. However, if you want more flexibility, you can build your app on top of the core and service components. To get an overview of the packages and classes, please have a look at our documentation in the ```/docs``` directory.
